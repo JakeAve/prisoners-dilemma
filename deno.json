@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "play": "deno run --allow-write=./result.json play.ts"
+  }
+}
