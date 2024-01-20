@@ -117,9 +117,8 @@ export function playTournament(strategies: Strategy[], averageRounds: number) {
   const averages = strategies
     .map((s) => ({
       name: s.name,
-      avg: s.totalScore / strategies.length,
+      avg: s.totalScore / (strategies.length * 2),
     }))
     .toSorted((a, b) => b.avg - a.avg);
   return { averages, strategies, games };
 }
-
