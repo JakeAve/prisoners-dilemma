@@ -5,6 +5,7 @@ import { CopyCat } from "./strategies/CopyCat.ts";
 import { DefectEveryFiveRounds } from "./strategies/DefectEveryFiveRounds.ts";
 import { DefectOnceAhead } from "./strategies/DefectOnceAhead.ts";
 import { DefectWhenBehind } from "./strategies/DefectWhenBehind.ts";
+import { DoubleRetaliation } from "./strategies/DoubleRetaliation.ts";
 import { NoForgiveness } from "./strategies/NoForgiveness.ts";
 import { OldFriends } from "./strategies/OldFriends.ts";
 import { Random } from "./strategies/Random.ts";
@@ -25,6 +26,7 @@ const strategies = [
   new OldFriends("Old Friends"),
   new Tester("Tester"),
   new DefectOnceAhead("Defect Once Ahead"),
+  new DoubleRetaliation("Double Retaliation"),
 ];
 
 const tournament = playTournament(strategies, 200);
