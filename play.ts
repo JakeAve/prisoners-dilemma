@@ -12,6 +12,7 @@ import { Random } from "./strategies/Random.ts";
 import { Tester } from "./strategies/Tester.ts";
 import { TitForTat } from "./strategies/TitForTat.ts";
 import { TitForTwoTats } from "./strategies/TitForTwoTats.ts";
+import {Tricky} from "./strategies/Tricky.ts"
 
 const strategies = [
   new AlwaysCooperate("Always Cooperate"),
@@ -27,6 +28,7 @@ const strategies = [
   new Tester("Tester"),
   new DefectOnceAhead("Defect Once Ahead"),
   new DoubleRetaliation("Double Retaliation"),
+  new Tricky('Tricky'),
 ];
 
 const tournament = playTournament(strategies, 200);
