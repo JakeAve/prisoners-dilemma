@@ -6,7 +6,7 @@ export class DoubleRetaliation extends Strategy {
     _myHistory: boolean[],
     opponentHistory: boolean[],
     _myScore: number,
-    _opponentScore: number
+    _opponentScore: number,
   ): boolean {
     if (currentRound === 1) {
       return true;

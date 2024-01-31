@@ -6,7 +6,7 @@ export class Tricky extends Strategy {
     _myHistory: boolean[],
     opponentHistory: boolean[],
     _myScore: number,
-    _opponentScore: number
+    _opponentScore: number,
   ): boolean {
     if (currentRound === 1) {
       return true;
@@ -15,6 +15,6 @@ export class Tricky extends Strategy {
       return false;
     }
     if (Math.random() < .1) return false;
-    return true
+    return true;
   }
 }
