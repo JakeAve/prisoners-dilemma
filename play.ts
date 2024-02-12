@@ -7,7 +7,7 @@ import { DefectOnceAhead } from "./strategies/DefectOnceAhead.ts";
 import { DefectWhenBehind } from "./strategies/DefectWhenBehind.ts";
 import { DoubleRetaliation } from "./strategies/DoubleRetaliation.ts";
 import { NoForgiveness } from "./strategies/NoForgiveness.ts";
-import { OldFriends } from "./strategies/OldFriends.ts";
+import { NoTrust } from "./strategies/NoTrust.ts";
 import { Random } from "./strategies/Random.ts";
 import { Tester } from "./strategies/Tester.ts";
 import { TitForTat } from "./strategies/TitForTat.ts";
@@ -16,6 +16,7 @@ import { Tricky } from "./strategies/Tricky.ts";
 import { RandomButMean } from "./strategies/RandomButMean.ts";
 import { BeatPushover } from "./strategies/BeatPushover.ts";
 import { Forgiveness } from "./strategies/Forgiveness.ts";
+import { Sus } from "./strategies/Sus.ts";
 
 const strategies = [
   new AlwaysCooperate("Always Cooperate"),
@@ -27,7 +28,7 @@ const strategies = [
   new TitForTwoTats("Tit for Two Tats"),
   new Random("Random"),
   new CopyCat("Copy Cat"),
-  new OldFriends("Old Friends"),
+  new NoTrust("No Trust"),
   new Tester("Tester"),
   new DefectOnceAhead("Defect Once Ahead"),
   new DoubleRetaliation("Double Retaliation"),
@@ -35,6 +36,7 @@ const strategies = [
   new RandomButMean("RandomButMean"),
   new BeatPushover("BeatPushOver"),
   new Forgiveness("Forgiveness"),
+  new Sus("Sus"),
 ];
 
 const tournament = playTournament(strategies, 200);
