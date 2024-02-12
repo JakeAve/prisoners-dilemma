@@ -14,6 +14,8 @@ import { TitForTat } from "./strategies/TitForTat.ts";
 import { TitForTwoTats } from "./strategies/TitForTwoTats.ts";
 import { Tricky } from "./strategies/Tricky.ts";
 import { RandomButMean } from "./strategies/RandomButMean.ts";
+import { BeatPushover } from "./strategies/BeatPushover.ts";
+import { Forgiveness } from "./strategies/Forgiveness.ts";
 
 const strategies = [
   new AlwaysCooperate("Always Cooperate"),
@@ -31,6 +33,8 @@ const strategies = [
   new DoubleRetaliation("Double Retaliation"),
   new Tricky("Tricky"),
   new RandomButMean("RandomButMean"),
+  new BeatPushover("BeatPushOver"),
+  new Forgiveness("Forgiveness"),
 ];
 
 const tournament = playTournament(strategies, 200);
