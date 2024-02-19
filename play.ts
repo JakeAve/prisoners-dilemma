@@ -17,6 +17,7 @@ import { RandomButMean } from "./strategies/RandomButMean.ts";
 import { BeatPushover } from "./strategies/BeatPushover.ts";
 import { Forgiveness } from "./strategies/Forgiveness.ts";
 import { Sus } from "./strategies/Sus.ts";
+import { OppositeTown } from "./strategies/OppositeTown.ts";
 
 const strategies = [
   new AlwaysCooperate("Always Cooperate"),
@@ -37,6 +38,7 @@ const strategies = [
   new BeatPushover("BeatPushOver"),
   new Forgiveness("Forgiveness"),
   new Sus("Sus"),
+  new OppositeTown("OppositeTown"),
 ];
 
 const tournament = playTournament(strategies, 200);
