@@ -1,0 +1,201 @@
+{
+  "winner": {
+    "name": "No Forgiveness",
+    "totalScore": 250792,
+    "wins": 58,
+    "losses": 28,
+    "ties": 332
+  },
+  "stats": [
+    {
+      "round": 1,
+      "strategy": {
+        "name": "Tester",
+        "totalScore": 15078,
+        "wins": 32,
+        "losses": 2,
+        "ties": 6
+      }
+    },
+    {
+      "round": 2,
+      "strategy": {
+        "name": "Tricky",
+        "totalScore": 31519,
+        "wins": 52,
+        "losses": 9,
+        "ties": 17
+      }
+    },
+    {
+      "round": 3,
+      "strategy": {
+        "name": "Defect Every 5 Rounds",
+        "totalScore": 49581,
+        "wins": 52,
+        "losses": 55,
+        "ties": 7
+      }
+    },
+    {
+      "round": 4,
+      "strategy": {
+        "name": "Random but Nice",
+        "totalScore": 65223,
+        "wins": 52,
+        "losses": 73,
+        "ties": 23
+      }
+    },
+    {
+      "round": 5,
+      "strategy": {
+        "name": "RandomButMean",
+        "totalScore": 79191,
+        "wins": 60,
+        "losses": 86,
+        "ties": 34
+      }
+    },
+    {
+      "round": 6,
+      "strategy": {
+        "name": "Always Defect",
+        "totalScore": 93140,
+        "wins": 198,
+        "losses": 0,
+        "ties": 12
+      }
+    },
+    {
+      "round": 7,
+      "strategy": {
+        "name": "BeatPushOver",
+        "totalScore": 105506,
+        "wins": 207,
+        "losses": 13,
+        "ties": 18
+      }
+    },
+    {
+      "round": 8,
+      "strategy": {
+        "name": "Random",
+        "totalScore": 118299,
+        "wins": 140,
+        "losses": 98,
+        "ties": 26
+      }
+    },
+    {
+      "round": 9,
+      "strategy": {
+        "name": "OppositeTown",
+        "totalScore": 132726,
+        "wins": 101,
+        "losses": 96,
+        "ties": 91
+      }
+    },
+    {
+      "round": 10,
+      "strategy": {
+        "name": "Always Cooperate",
+        "totalScore": 150555,
+        "wins": 0,
+        "losses": 90,
+        "ties": 220
+      }
+    },
+    {
+      "round": 11,
+      "strategy": {
+        "name": "Defect Once Ahead",
+        "totalScore": 162726,
+        "wins": 0,
+        "losses": 90,
+        "ties": 240
+      }
+    },
+    {
+      "round": 12,
+      "strategy": {
+        "name": "Tit for Two Tats",
+        "totalScore": 186951,
+        "wins": 0,
+        "losses": 90,
+        "ties": 258
+      }
+    },
+    {
+      "round": 13,
+      "strategy": {
+        "name": "No Trust",
+        "totalScore": 199385,
+        "wins": 10,
+        "losses": 80,
+        "ties": 274
+      }
+    },
+    {
+      "round": 14,
+      "strategy": {
+        "name": "Copy Cat",
+        "totalScore": 207809,
+        "wins": 0,
+        "losses": 51,
+        "ties": 327
+      }
+    },
+    {
+      "round": 15,
+      "strategy": {
+        "name": "Tit for Tat",
+        "totalScore": 215151,
+        "wins": 0,
+        "losses": 50,
+        "ties": 340
+      }
+    },
+    {
+      "round": 16,
+      "strategy": {
+        "name": "Defect When Behind",
+        "totalScore": 221261,
+        "wins": 0,
+        "losses": 54,
+        "ties": 346
+      }
+    },
+    {
+      "round": 17,
+      "strategy": {
+        "name": "Double Retaliation",
+        "totalScore": 230456,
+        "wins": 58,
+        "losses": 28,
+        "ties": 322
+      }
+    },
+    {
+      "round": 18,
+      "strategy": {
+        "name": "Forgiveness",
+        "totalScore": 234403,
+        "wins": 0,
+        "losses": 57,
+        "ties": 357
+      }
+    },
+    {
+      "round": 19,
+      "strategy": {
+        "name": "Sus",
+        "totalScore": 243799,
+        "wins": 58,
+        "losses": 28,
+        "ties": 332
+      }
+    }
+  ]
+}

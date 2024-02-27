@@ -1,4 +1,4 @@
-import { playTournament } from "./game.ts";
+import { playGenerations } from "./game.ts";
 import { AlwaysCooperate } from "./strategies/AlwaysCooperate.ts";
 import { AlwaysDefect } from "./strategies/AlwaysDefect.ts";
 import { CopyCat } from "./strategies/CopyCat.ts";
@@ -43,6 +43,14 @@ const strategies = [
   new RandomButNice("Random but Nice"),
 ];
 
-const tournament = playTournament(strategies, 200);
+// const tournament = playTournament(strategies, 200);
 
-Deno.writeTextFileSync("result.json", JSON.stringify(tournament, null, 2));
+// Deno.writeTextFileSync("result.json", JSON.stringify(tournament, null, 2));
+
+// const final = playSurvival(strategies, 200);
+
+// Deno.writeTextFileSync("survival.json", JSON.stringify(final, null, 2));
+
+const final = playGenerations(strategies, 200, 5);
+
+Deno.writeTextFileSync("generations.json", JSON.stringify(final, null, 2));
