@@ -1,7 +1,7 @@
 {
   "winner": {
     "name": "No Forgiveness",
-    "totalScore": 250792,
+    "totalScore": 250730,
     "wins": 58,
     "losses": 28,
     "ties": 332
@@ -11,57 +11,57 @@
       "round": 1,
       "strategy": {
         "name": "Tester",
-        "totalScore": 15078,
+        "totalScore": 15074,
         "wins": 32,
-        "losses": 2,
-        "ties": 6
+        "losses": 3,
+        "ties": 5
       }
     },
     {
       "round": 2,
       "strategy": {
         "name": "Tricky",
-        "totalScore": 31519,
-        "wins": 52,
-        "losses": 9,
-        "ties": 17
+        "totalScore": 31248,
+        "wins": 56,
+        "losses": 12,
+        "ties": 10
       }
     },
     {
       "round": 3,
       "strategy": {
         "name": "Defect Every 5 Rounds",
-        "totalScore": 49581,
-        "wins": 52,
+        "totalScore": 49658,
+        "wins": 53,
         "losses": 55,
-        "ties": 7
+        "ties": 6
       }
     },
     {
       "round": 4,
       "strategy": {
         "name": "Random but Nice",
-        "totalScore": 65223,
+        "totalScore": 65299,
         "wins": 52,
-        "losses": 73,
-        "ties": 23
+        "losses": 69,
+        "ties": 27
       }
     },
     {
       "round": 5,
       "strategy": {
         "name": "RandomButMean",
-        "totalScore": 79191,
-        "wins": 60,
-        "losses": 86,
-        "ties": 34
+        "totalScore": 79095,
+        "wins": 59,
+        "losses": 90,
+        "ties": 31
       }
     },
     {
       "round": 6,
       "strategy": {
         "name": "Always Defect",
-        "totalScore": 93140,
+        "totalScore": 92948,
         "wins": 198,
         "losses": 0,
         "ties": 12
@@ -71,19 +71,19 @@
       "round": 7,
       "strategy": {
         "name": "BeatPushOver",
-        "totalScore": 105506,
-        "wins": 207,
-        "losses": 13,
-        "ties": 18
+        "totalScore": 105981,
+        "wins": 210,
+        "losses": 12,
+        "ties": 16
       }
     },
     {
       "round": 8,
       "strategy": {
         "name": "Random",
-        "totalScore": 118299,
-        "wins": 140,
-        "losses": 98,
+        "totalScore": 119766,
+        "wins": 138,
+        "losses": 100,
         "ties": 26
       }
     },
@@ -91,17 +91,17 @@
       "round": 9,
       "strategy": {
         "name": "OppositeTown",
-        "totalScore": 132726,
-        "wins": 101,
-        "losses": 96,
-        "ties": 91
+        "totalScore": 132958,
+        "wins": 106,
+        "losses": 92,
+        "ties": 90
       }
     },
     {
       "round": 10,
       "strategy": {
         "name": "Always Cooperate",
-        "totalScore": 150555,
+        "totalScore": 150570,
         "wins": 0,
         "losses": 90,
         "ties": 220
@@ -111,7 +111,7 @@
       "round": 11,
       "strategy": {
         "name": "Defect Once Ahead",
-        "totalScore": 162726,
+        "totalScore": 162675,
         "wins": 0,
         "losses": 90,
         "ties": 240
@@ -121,7 +121,7 @@
       "round": 12,
       "strategy": {
         "name": "Tit for Two Tats",
-        "totalScore": 186951,
+        "totalScore": 186711,
         "wins": 0,
         "losses": 90,
         "ties": 258
@@ -131,9 +131,9 @@
       "round": 13,
       "strategy": {
         "name": "No Trust",
-        "totalScore": 199385,
-        "wins": 10,
-        "losses": 80,
+        "totalScore": 198484,
+        "wins": 4,
+        "losses": 86,
         "ties": 274
       }
     },
@@ -141,17 +141,17 @@
       "round": 14,
       "strategy": {
         "name": "Copy Cat",
-        "totalScore": 207809,
+        "totalScore": 207794,
         "wins": 0,
-        "losses": 51,
-        "ties": 327
+        "losses": 55,
+        "ties": 323
       }
     },
     {
       "round": 15,
       "strategy": {
         "name": "Tit for Tat",
-        "totalScore": 215151,
+        "totalScore": 215020,
         "wins": 0,
         "losses": 50,
         "ties": 340
@@ -161,37 +161,37 @@
       "round": 16,
       "strategy": {
         "name": "Defect When Behind",
-        "totalScore": 221261,
+        "totalScore": 221086,
         "wins": 0,
-        "losses": 54,
-        "ties": 346
+        "losses": 50,
+        "ties": 350
       }
     },
     {
       "round": 17,
       "strategy": {
         "name": "Double Retaliation",
-        "totalScore": 230456,
+        "totalScore": 230552,
         "wins": 58,
-        "losses": 28,
-        "ties": 322
+        "losses": 30,
+        "ties": 320
       }
     },
     {
       "round": 18,
       "strategy": {
         "name": "Forgiveness",
-        "totalScore": 234403,
+        "totalScore": 234455,
         "wins": 0,
-        "losses": 57,
-        "ties": 357
+        "losses": 52,
+        "ties": 362
       }
     },
     {
       "round": 19,
       "strategy": {
         "name": "Sus",
-        "totalScore": 243799,
+        "totalScore": 243766,
         "wins": 58,
         "losses": 28,
         "ties": 332

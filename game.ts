@@ -158,7 +158,6 @@ export function playGenerations(
     for (const a of averages) {
       const isPositive = a.avg - 400 > 0;
       const remainder = Math.floor(Math.abs((a.avg - 400) / 100));
-      // console.log(a, { remainder });
       let j = 0;
       for (; j < remainder; j++) {
         if (isPositive) {
@@ -171,7 +170,6 @@ export function playGenerations(
           strategies.push(clone);
           map[a.name] = map[a.name] + 1;
         } else {
-          console.log(`${a.name} is negative`)
           const idx = strategies.findIndex((s) => s.name === a.name);
           if (idx === -1)
             throw new Error(`No strategy found with name ${a.name}`);

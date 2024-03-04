@@ -1,5 +1,7 @@
 {
   "tasks": {
-    "play": "deno run --allow-write=./result.json play.ts"
+    "generations": "deno run --allow-write=./generations.json scripts/playGenerations.ts",
+    "tournament": "deno run --allow-write=./tournament.json scripts/playTournament.ts",
+    "survival": "deno run --allow-write=./survival.json scripts/playSurvival.ts"
   }
 }
